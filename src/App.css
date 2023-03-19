@@ -14,7 +14,8 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url('../public/trees-background.jpg');
+  background-size: cover;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,9 +25,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#Username {
+  font-size: calc(10px + 2vmin);
+  color:darkcyan;
 }
+
+#Password {
+  font-size: calc(10px + 2vmin);
+  color:darkcyan;
+}
+
 
 @keyframes App-logo-spin {
   from {
